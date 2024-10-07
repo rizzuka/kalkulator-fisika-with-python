@@ -1,0 +1,28 @@
+
+.volume {
+    padding: 100px 0; /* Memberi jarak cukup untuk membuat elemen ini terlihat */
+    background: #1b1b1b;
+    text-align: center;
+    z-index: 2;
+}
+
+.volume p {
+    font-size: 30px;
+    font-weight: 600;
+    padding: 20px;
+}
+
+.volume ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.volume li {
+    display: inline;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.volume a:hover {
+    color: #ccc;
+}

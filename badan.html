@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>KalkulatorFisika | Proyek1</title>
+      <link rel="stylesheet" href="static/style.css">
+
+</head>
+<body>
+    <nav class="intro">
+        <div class="logo">
+            <p>KalkulatorFisika</p>
+        </div>
+    </nav>
+    
+    <div class="img"></div>
+    
+    <div class="center">
+        <div class="title">Kalkulator Fisika</div>
+        <div class="sub_title">Teman Setia dalam Menghitung Fisika</div>
+        <div class="btns">
+            <button><a href="https://www.fisika.co.id/2019/12/peran-fisika-dalam-kehidupan.html#google_vignette">Manfaat</a></button>
+        </div>
+    </div>
+
+    <nav class="volume">
+        <div class="volum">
+            <p>Volume</p>
+            <ul>
+                <li><a class="kk" href="{{ url_for('run_vkawat') }}">Volume kawat</a></li>
+                <li><a class="kk" href="{{ url_for('run_vkerucut') }}">Volume kerucut</a></li>
+                <li><a class="kk" href="{{ url_for('run_vsilinder') }}">Volume silinder</a></li>
+                
+            </ul>
+        </div>
+    </nav>
+    
+    <nav class="kinematika">
+        <div class="knmtk">
+            <p>Kinematika</p>
+            <ul>
+                <li><a class="kk" href="{{ url_for('run_glb') }}">GLB</a></li>
+                <li><a class="kk" href="{{ url_for('run_glbb') }}">GLBB</a></li>
+                <li><a class="kk" href="{{ url_for('run_parabola') }}">Gerak Parabola</a></li>
+                
+            </ul>
+        </div>
+    </nav>
+
+    <nav class="energikinetik">
+        <div class="ek">
+            <p>Energi Kinetik</p>
+            <ul>
+                <li><a class="kk" href="{{ url_for('run_ek') }}">Energi Kinetik</a></li>
+                <li><a class="kk" href="{{ url_for('run_hu') }}">Hubungan Usaha</a></li>
+                <li><a class="kk" href="{{ url_for('run_usaha') }}">Usaha</a></li>
+                
+            </ul>
+        </div>
+    </nav>
+    
+</body>
+</html>
